@@ -351,7 +351,8 @@ Como usuario, quiero una aplicación que me permita ver y gestionar productos de
    - **Concepto de JavaScript aplicado**: Funciones de Flecha, Eventos en JavaScript.
 
 4. **Filtrado y Búsqueda**:
-   - Implementar funcionalidades de filtrado y búsqueda para que los usuarios puedan encontrar productos específicos.
+   - Implementar funciona
+   uedan encontrar productos específicos.
    - **Concepto de JavaScript aplicado**: Manipulación del DOM, Control de Flujo.
 
 5. **Manejo de Errores**:
