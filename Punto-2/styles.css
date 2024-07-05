@@ -1,0 +1,86 @@
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    background-color: #f4f4f4;
+}
+
+#container {
+    background: white;
+    padding: 10px 50px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    width: 80%;
+    margin: auto;
+}
+
+input[type="text"] {
+    padding: 10px;
+    width: calc(100% - 22px);
+    margin-bottom: 10px;
+}
+
+button {
+    width: 100px;
+    height: 30px;
+    background-color: #3e423e;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #535353;
+}
+
+#notesList {
+    display: flex;
+    flex-wrap: wrap;
+    width: 90%;
+    justify-content: center;
+    gap: 10px;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    padding: 10px;
+    background-color: #f9f9f9;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    min-height: 300px;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 12px 28px 0px, rgba(0, 0, 0, 0.1) 0px 2px 4px 0px, rgba(255, 255, 255, 0.05) 0px 0px 0px 1px inset;
+}
+
+li p {
+    white-space: pre-wrap;  
+    word-wrap: break-word;  
+    max-width: 100%;        
+    overflow-wrap: break-word;
+}
+
+.noteButtons {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+    width: 100%;
+}
+
+.noteButtons button {
+    margin-right: 5px;
+    width: 100%;
+}
+
+.important {
+    background-color: rgb(113, 191, 197);
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+}
