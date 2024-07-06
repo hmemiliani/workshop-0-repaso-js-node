@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gestión de Productos</title>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+    <h1>Gestión de Productos</h1>
+
+    <select id="category-filter" onchange="filterByCategory()">
+        <option value="">Todas las Categorías</option>
+        <option value="Electronics">Electrónica</option>
+        <option value="Clothing">Ropa</option>
+        <option value="Accessories">Accesorios</option>
+    </select>
+
+    <input type="text" id="search-box" placeholder="Buscar por nombre">
+    <button onclick="searchProduct()">Buscar Producto</button>
+
+    <div id="products-container"></div>
+
+    <input type="text" id="total-display" placeholder="Total" readonly>
+    <button onclick="calculateTotalPrice()">Calcular Precio Total</button>
+    <button onclick="calculateTotalStock()">Calcular Stock Total</button>
+
+    <script src="./app.js"></script>
+</body>
+</html>

@@ -38,7 +38,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
 
     const populateCategories = (products) => {
-        const categories = [...new Set(products.map(product => product.category))];
+        const categories = [...new Set(products.map(product => product.category))]; //elimina las categorias repetidas
         categories.forEach(category => {
             const option = document.createElement('option');
             option.value = category;
